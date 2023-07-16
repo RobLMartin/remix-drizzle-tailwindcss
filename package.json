@@ -18,7 +18,7 @@
     "@routes-gen/remix": "^0.3.6",
     "better-sqlite3": "^8.4.0",
     "daisyui": "^3.2.1",
-    "drizzle-orm": "^0.27.2",
+    "drizzle-orm": "^0.23.8",
     "isbot": "^3.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
