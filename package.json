@@ -6,7 +6,8 @@
     "dev": "remix dev",
     "start": "remix-serve build",
     "typecheck": "tsc",
-    "routes:gen": "routes-gen -d @routes-gen/remix"
+    "routes:gen": "routes-gen -d @routes-gen/remix",
+    "db:migrations": "drizzle-kit generate:sqlite --out ./app/db/migrations --schema ./app/db/schema.server.ts"
   },
   "dependencies": {
     "@remix-run/css-bundle": "^1.18.1",
